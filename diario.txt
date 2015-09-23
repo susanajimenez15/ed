@@ -1,0 +1,86 @@
+
+Instalar git:
+
+    1  sudo apt-get install git
+
+Creamos un repositorio en github:
+Clonamos el repositorio de github:
+
+    4  git clone https://github.com/susanajimenez15/ed.git
+   
+
+   10  gedit hola-mundo-git.txt
+
+   11  git status
+ 
+   
+   14  git config --global user.name susanajimenez15
+   15  git config --global user.mail dam.sjimenez@institutoserpis.org
+   16  git config --list
+   17  git commit -n "Hola mundo desde git"
+   18  git push
+   
+   32  git --list
+   33  git config --global user.name susanajimenez15
+   34  git config --global user.email dam.sjimenez@institutoserpis.org
+   35  git commit -m "Hola mundo desde git"
+	git push
+   39  git checkout master
+
+
+   55  git config --list
+
+   57  git push
+   58  git status
+   59  git push
+   60  git status
+   61  rm hola-mundo-git.txt~
+   62  git status
+   63  git add hola-mundo-git.txt 
+   64  git status
+   65  git log
+   66  git checkout --
+   67  git log
+   68  git status
+   69  git reset HEAD hola-mundo-git.txt
+   70  git status
+   71  git checkout --
+   72  git status
+   73  git checkout -- .
+   74  git status
+   75  cat hola-mundo-git.txt 
+   76  yes RIETE
+   77  apt-get install figlet
+   78  cowsay -f /usr/share/cowsay/cows/eyes.cow DesdeLinux.net
+   79  telnet towel.blinkenlights.nl
+   80  javac HolaMundo.java
+   81  ls
+   82  cd D
+   83  cd Documentos
+   84  ls
+   85  cd PROGRAMACION/
+   86  ls
+   87  cd Java/
+   88  ls
+   89  javac HolaMundo.java
+   90  java HolaMundo
+   91  1-ñ552555555
+   92  java HolaMundo
+   93  javac HolaMundo.java
+   94  java HolaMundo
+   95  javac DiasDeVida.java
+   96  java DiasDeVida.java
+   97  javac DiasDeVida.java
+   98  java DiasDeVida
+   99  javac DivideYSuma.java
+  100  java DivideYSuma 
+  101  cd Documentos
+  102  ls
+  103  ls ed
+  104  cd ed
+  105  gedit diario.txt
+  106  gedit diario.txt&
+  107* 
+  108  gedit diario.txt&
+  109  history
+  110  history > diario.txt
