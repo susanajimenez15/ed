@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.institutoserpis.ed.myactivity2.MiCalculadora"
+    tools:showIn="@layout/activity_mi_calculadora">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:background="@drawable/botonpulsado"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b2"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_toRightOf="@+id/b1"
+        android:layout_toEndOf="@+id/b1"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b3"
+        android:layout_alignBottom="@+id/b2"
+        android:layout_toRightOf="@+id/b2"
+        android:layout_toEndOf="@+id/b2"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b4"
+        android:layout_below="@+id/b1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b7"
+        android:layout_below="@+id/b4"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b10"
+        android:layout_below="@+id/b7"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b11"
+        android:layout_alignTop="@+id/b10"
+        android:layout_toRightOf="@+id/b10"
+        android:layout_toEndOf="@+id/b10"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b5"
+        android:layout_alignTop="@+id/b4"
+        android:layout_toRightOf="@+id/b4"
+        android:layout_toEndOf="@+id/b4"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b8"
+        android:layout_above="@+id/b10"
+        android:layout_toRightOf="@+id/b7"
+        android:layout_toEndOf="@+id/b7"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b6"
+        android:layout_below="@+id/b3"
+        android:layout_toRightOf="@+id/b5"
+        android:layout_toEndOf="@+id/b5"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b9"
+        android:layout_below="@+id/b6"
+        android:layout_toRightOf="@+id/b5"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b12"
+        android:layout_below="@+id/b9"
+        android:layout_toRightOf="@+id/b5"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b13"
+        android:layout_below="@+id/b10"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b16"
+        android:layout_below="@+id/b13"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b19"
+        android:layout_below="@+id/b16"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b17"
+        android:layout_below="@+id/b14"
+        android:layout_toRightOf="@+id/b19"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b14"
+        android:layout_above="@+id/b16"
+        android:layout_toRightOf="@+id/b13"
+        android:layout_toEndOf="@+id/b13"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b20"
+        android:layout_below="@+id/b17"
+        android:layout_toRightOf="@+id/b19"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b15"
+        android:layout_below="@+id/b11"
+        android:layout_toRightOf="@+id/b11"
+        android:layout_toEndOf="@+id/b11"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b18"
+        android:layout_below="@+id/b15"
+        android:layout_toRightOf="@+id/b11"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b21"
+        android:layout_below="@+id/b18"
+        android:layout_toRightOf="@+id/b11"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b22"
+        android:layout_below="@+id/b19"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b25"
+        android:layout_below="@+id/b22"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b28"
+        android:layout_below="@+id/b25"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b26"
+        android:layout_above="@+id/b28"
+        android:layout_toRightOf="@+id/b25"
+        android:background="@drawable/botonpulsado"
+        android:layout_toEndOf="@+id/b25"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b23"
+        android:layout_alignTop="@+id/b22"
+        android:layout_toRightOf="@+id/b22"
+        android:background="@drawable/botonpulsado"
+        android:layout_toEndOf="@+id/b22"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b29"
+        android:layout_alignTop="@+id/b28"
+        android:layout_toRightOf="@+id/b28"
+        android:background="@drawable/botonpulsado"
+        android:layout_toEndOf="@+id/b28"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b30"
+        android:layout_below="@+id/b27"
+        android:layout_toRightOf="@+id/b26"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b27"
+        android:layout_below="@+id/b24"
+        android:layout_toRightOf="@+id/b26"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                         "
+        android:id="@+id/b24"
+        android:layout_alignTop="@+id/b23"
+        android:layout_toRightOf="@+id/b26"
+        android:layout_toEndOf="@+id/b26"
+        android:background="@drawable/botonpulsado"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:onClick="clicar" />
+</RelativeLayout>
